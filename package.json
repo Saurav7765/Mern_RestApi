@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "elib",
+  "version": "1.0.0",
+  "description": "This a Ebook Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Saurav Singh <sauravsingh11640@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0"
+  }
+}
